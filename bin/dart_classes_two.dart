@@ -3,6 +3,7 @@ import 'package:dart_classes_two/dart_class_inheritance.dart'
     as dart_class_inheritance;
 import 'package:dart_classes_two/dart_class_abstraction.dart'
     as dart_class_abstraction;
+import 'package:dart_classes_two/dart_class_mixins.dart' as dart_class_mixins;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_classes_two.calculate()}!');
@@ -12,5 +13,8 @@ void main(List<String> arguments) {
   print('***********************************************');
 
   print('${dart_class_abstraction.abstractionDisplay()}');
+  print('***********************************************');
+
+  print('${dart_class_mixins.mixinsDisplay()}');
   print('***********************************************');
 }
